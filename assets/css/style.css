@@ -409,4 +409,97 @@ button.out {
 
 .modalcontent {
     background-color: white;
+    padding: 32px 24px;
+}
+
+.modalclose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.modalclose img {
+    width: 14px;
+    height: 14px;
+}
+
+.backit p {
+    margin-bottom: 24px;
+}
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-left: 16px;
+    line-height: 24px;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+input[type="radio"]:checked {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    background-color: #3CB3AB;
+}
+
+.choose h3 {
+    margin: 0px;
+    padding: 0;
+}
+
+label>.pledge {
+    margin-bottom: 0px;
+}
+
+.invisible {
+    margin-top: 25px;
+}
+
+input[type="text"] {
+    width: 100px;
+    height: 48px;
+    border-radius: 33px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+}
+
+h4 {
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.twobuttons.new {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.select.continue {
+    margin: 0;
+}
+
+.invisible {
+    display: none;
 }

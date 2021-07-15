@@ -104,14 +104,18 @@
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by Natallia Harmon.
     </footer>
 
+
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
     <div id="modal">
         <div class="modalcontent">
             <div class="backit">
-                <h3>Back this project</h3><img src="assets/images/icon-close-modal.svg" alt="Close">
+                <div class="modalclose">
+                    <h3>Back this project</h3><img src="assets/images/icon-close-modal.svg" alt="Close"></div>
                 <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
                 <div class="bamboostand">
-                    <input type="radio" id="noreward" name="rewards" value="0">
-                    <label for="noreward"><h3>Pledge with no reward</h3></label>
+                    <div class="choose"> <input type="radio" id="noreward" name="rewards" value="0">
+                        <label for="noreward"><h3>Pledge with no reward</h3></label></div>
                     <p>Choose to support us without a reward if you simply believe in our project. As a backer, you will be signed up to receive product updates via email.</p>
 
                 </div>
@@ -121,42 +125,63 @@
 
             <div class="bamboostand">
                 <div class="standdiv">
-                    <input type="radio" id="bambooreward" name="rewards" value="25">
-                    <label for="bambooreward"> <h3>Bamboo Stand</h3>
-            <div class="pledge">Pledge $25 or more</div></label>
+                    <div class="choose"> <input type="radio" id="bambooreward" name="rewards" value="25">
+                        <label for="bambooreward"> <h3>Bamboo Stand</h3>
+            <div class="pledge">Pledge $25 or more</div></label></div>
                 </div>
                 <p class="standp"> You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you’ll be added to a special Backer member list.</p>
 
                 <div class="standdiv">
                     <div class="whatleft"><span class="standnumber stylenumber">101</span>left</div>
                 </div>
-                <hr>
-                <div class="twobuttons">
-                    <input type="text" id="twentyfive" placeholder="25">
-                    <button class="select">Continue</button>
-                </div>
 
+                <div class="invisible">
+
+                    <hr>
+
+                    <h4>Enter your pledge</h4>
+                    <div class="twobuttons new">
+
+                        <input type="text" id="twentyfive" placeholder="$25">
+                        <button class="select continue">Continue</button>
+                    </div>
+                </div>
             </div>
+
 
             <div class="bamboostand">
                 <div class="standdiv">
-                    <input type="radio" id="editionreward" name="rewards" value="75">
-                    <label for="editionreward"> <h3>Black Edition Stand</h3>
-            <div class="pledge">Pledge $75 or more</div></label>
+                    <div class="choose"> <input type="radio" id="editionreward" name="rewards" value="75">
+                        <label for="editioneward"> <h3>Black Edition Stand</h3>
+            <div class="pledge">Pledge $75 or more</div></label></div>
                 </div>
                 <p class="standp"> You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer member list. Shipping is included.</p>
 
                 <div class="standdiv">
                     <div class="whatleft"><span class="standnumber stylenumber">64</span>left</div>
                 </div>
-                <hr>
-                <div class="twobuttons">
-                    <input type="text" id="twentyfive" placeholder="25">
-                    <button class="select">Continue</button>
-                </div>
 
+                <div class="invisible">
+
+                    <hr>
+
+                    <h4>Enter your pledge</h4>
+                    <div class="twobuttons new">
+
+                        <input type="text" id="twentyfive" placeholder="$75">
+                        <button class="select continue">Continue</button>
+                    </div>
+                </div>
             </div>
+
+
+
+
+
+
+
         </div>
+    </div>
 
     </div>
 
