@@ -468,7 +468,8 @@ label>.pledge {
     margin-bottom: 0px;
 }
 
-.invisible {
+.invisible,
+invisible2 {
     margin-top: 25px;
 }
 
@@ -500,8 +501,9 @@ h4 {
     margin: 0;
 }
 
-.invisible {
-    /* display: none;*/
+.invisible,
+.invisible2 {
+    display: none;
 }
 
 .close {
