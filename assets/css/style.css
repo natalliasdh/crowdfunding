@@ -116,6 +116,10 @@ p {
     justify-content: space-between;
 }
 
+.twobuttons.one {
+    justify-content: flex-end;
+}
+
 button {
     background-color: #3CB3AB;
     outline: none;
@@ -469,7 +473,8 @@ label>.pledge {
 }
 
 .invisible,
-invisible2 {
+.invisible2,
+.invisible3 {
     margin-top: 25px;
 }
 
@@ -502,7 +507,8 @@ h4 {
 }
 
 .invisible,
-.invisible2 {
+.invisible2,
+.invisible3 {
     display: none;
 }
 
